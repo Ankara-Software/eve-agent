@@ -1,6 +1,13 @@
 {
   "name": "eve-agent",
   "version": "0.0.0",
+  "description": "A read-only workspace operations agent built on the eve framework, with tools for workspace statistics and package.json dependencies",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankara-Software/eve-agent.git"
+  },
+  "homepage": "https://ankarayazilim.org/acik-kaynak/eve-agent",
   "type": "module",
   "imports": {
     "#*": "./agent/*",
